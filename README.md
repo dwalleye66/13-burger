@@ -1,6 +1,6 @@
 
   ![License](https://img.sheilds.io/badge/license-MIT-purple)
-  # README Generator
+  # Eat-da Burger
 
   Created a command-line interface that will enable creation of a professional looking README.md file.
 
