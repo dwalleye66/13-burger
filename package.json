@@ -1,0 +1,12 @@
+{
+  "name": "02-homework",
+  "version": "1.0.0",
+  "description": "![License](https://img.sheilds.io/badge/license-MIT-purple)   # Eat-da Burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
