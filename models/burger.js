@@ -1,1 +1,26 @@
-//Fill in data
+const orm = require("../config/orm.js");
+
+let burger = {
+    selectAll: function (cb) {
+        orm.selectAll("burgers", function (res) {
+            cb(res);
+        });
+    },
+    insertOne: function (cols, vals, cb) {
+        orm.insertOne("burgers", cols, vals, function (res) {
+            cb(res);
+        });
+    },
+    updateOne: function (objColVals, condition, cb) {
+        orm.updateOne("burgers", objColVals, condition, function (res) {
+            cb(res);
+        });
+    },
+    clearAll: function (cb) {
+        orm.clearAll("burgers", (result) => {
+            cb(result); 0
+        });
+    }
+};
+
+module.exports = burger;
