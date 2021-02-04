@@ -1,12 +1,24 @@
 {
-  "name": "02-homework",
+  "name": "eat_da_buger",
   "version": "1.0.0",
-  "description": "![License](https://img.sheilds.io/badge/license-MIT-purple)   # Eat-da Burger",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dwalleye66/13-burger.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwalleye66/13-buger/issues"
+  },
+  "homepage": "https://github.com/dwalleye66/13-burger#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-handlebars": "5.2.0",
+    "mysql": "2.18.1"
+  }
 }
